@@ -5,7 +5,7 @@ module TraceIdLogging
     def call(severity, time, progname, msg)
       message = msg2str(msg)
       traceId = Thread.current[:TRACE_ID]
-      unless traceId.nil?
+      unless traceId.to_s.empty?
         message = "TRACE_ID:#{traceId} #{message}"
       end
       super(severity, time, progname, message)
