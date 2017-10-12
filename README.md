@@ -14,7 +14,7 @@ You can see `TRACE_ID:Root=1-59ded7fe-356dfdc6223dd2de48360db9` is outputted to 
 ## Installation
 - Add the following line to your Rails app's Gemfile
   ```
-  gem 'trace_id_logging', '~> 0.0.1', git: 'git@github.com:ngocson2vn/trace_id_logging.git'
+  gem 'trace_id_logging', '~> 0.0.3', git: 'git@github.com:ngocson2vn/trace_id_logging.git'
   ```
 
 - Install the gem
