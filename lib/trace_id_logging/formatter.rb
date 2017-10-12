@@ -6,7 +6,7 @@ module TraceIdLogging
       message = msg2str(msg)
       traceId = Thread.current[:TRACE_ID]
       unless traceId.nil?
-        message = "#{traceId} #{message}"
+        message = "TRACE_ID:#{traceId} #{message}"
       end
       super(severity, time, progname, message)
     end
