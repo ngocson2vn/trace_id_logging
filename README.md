@@ -1,6 +1,6 @@
 # TraceIdLogging
 This gem provides a Rack middleware and a logger formatter for logging X-Amzn-Trace-Id header for Rails apps deployed on AWS with Application Load Balancer.
-### Sample log
+### Sample rails log
 ```
 I, [2017-10-12T02:47:09.293574 #19337]  INFO -- : TRACE_ID:Root=1-59ded7fe-356dfdc6223dd2de48360db9 Started GET "/" for a.b.c.d at 2017-10-12 02:47:09 +0000
 I, [2017-10-12T02:47:09.294106 #19337]  INFO -- : TRACE_ID:Root=1-59ded7fe-356dfdc6223dd2de48360db9 Cannot render console from a.b.c.d! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
