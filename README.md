@@ -35,6 +35,7 @@ You can see `TRACE_ID:Root=1-59ded7fe-356dfdc6223dd2de48360db9` is outputted to 
 
 ## Reference
 http://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-request-tracing.html
+http://api.rubyonrails.org/v4.1/classes/ActionDispatch/RequestId.html
 
 ## Development
 
